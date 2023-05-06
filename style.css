@@ -22,7 +22,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 .container{
     min-height: 100vh;
@@ -95,13 +94,14 @@ body{
     outline: 0;
 }
 #calc-btn:hover{
-    background: var(--space-cadet);
+    /* background: var(--space-cadet); */
+    background: #ff4f8b;
 }
 .text-group{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.3rem 0;
+    padding: 0.1rem 0;
 }
 .text-group h3{
     font-weight: 400;
